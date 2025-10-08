@@ -1,0 +1,36 @@
+{
+    // Maven的相关配置信息
+    "java.configuration.maven.globalSettings": "D:\\serviceSDKSpace\\mavenSpease\\settings.xml", // maven 全局 settings 文件
+    "java.maven.downloadSources": true, //让maven下载源码
+    "java.configuration.maven.userSettings": "D:\\serviceSDKSpace\\mavenSpease\\settings.xml", // 配置 maven settings 文件，配置了全局 settings 文件在这里就可以不用写了。
+    "maven.executable.path": "D:\\serviceSDKSpace\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin", // 指定 maven 配置文件的绝对路径,默认是 ~/.m2/settings.xml。配上也行，不配好像也没有什么影响
+    "maven.executable.options": "-DarchetypeCatalog=internal", // 指定所有mvn命令的默认选项。
+    //   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home",
+    "java.completion.chain.enabled": true, //启用链式代码补全功能
+    "java.completion.matchCase": "off", //代码补全时是否区分大小写
+    "java.signatureHelp.description.enabled": true, //启用方法签名帮助的描述功能
+    "java.dependency.showMembers": true, //在Java依赖视图中显示类的成员
+    "java.debug.logLevel": "info", //控制Java调试器的日志级别
+    "editor.fontSize": 14, // 文本编辑器的字体大小，可以将整改 editor.fontSize 放在设置那里搜索
+    "explorer.confirmDelete": false, // 删除文件时，是否提示放入回收站
+    "explorer.confirmDragAndDrop": false, // 拖移文件时，是否提示确认
+    "security.workspace.trust.untrustedFiles": "open", // 受信任工作区那个提示，可以将整个 security.workspace.trust.untrustedFiles 放在设置那里搜索
+    "javascript.updateImportsOnFileMove.enabled": "always", //跟java无关
+    "emmet.triggerExpansionOnTab": true, //跟java无关
+    "redhat.telemetry.enabled": true, // 跟java有关，启用将使用数据和错误发送到Red Hat服务器。请阅读我们的隐私声明。
+    "workbench.colorCustomizations": {
+        "gitDecoration.addedResourceForeground": "#00ffa2d0", // 新增的文件（绿色）
+        "gitDecoration.modifiedResourceForeground": "#00aaff", // 修改的文件（蓝色）
+        "gitDecoration.deletedResourceForeground": "#FF0000", // 删除的文件（红色）
+        "gitDecoration.untrackedResourceForeground": "#ff7700", // 未跟踪的文件（红色）
+        "gitDecoration.ignoredResourceForeground": "#8A8A8A", // 忽略的文件（灰色）
+        "gitDecoration.conflictingResourceForeground": "#FF0000", // 冲突的文件（红色）
+        "gitDecoration.submoduleResourceForeground": "#8A8A8A" // 子模块的文件（灰色）
+    },
+    "problems.decorations.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "workbench.colorTheme": "Default High Contrast Light",
+    "maven.settingsFile": "",
+    "update.showReleaseNotes": false, //自动保存,10ms后保存
+}
